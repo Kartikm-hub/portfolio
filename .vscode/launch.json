@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Open Portfolio",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Open Portfolio (Chrome)",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Open Portfolio (localhost)",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Start local server"
+    }
+  ]
+}
