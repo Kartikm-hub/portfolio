@@ -66,7 +66,7 @@
     }
 
     if (!CONFIG?.publicKey || !CONFIG?.serviceId || !CONFIG?.templateId) {
-      throw new Error('EmailJS config is missing. Check js/email-config.js');
+      throw new Error('EmailJS config is missing. Check assets/js/email-config.js');
     }
 
     log('Sending email...', {

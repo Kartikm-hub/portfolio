@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/google343ed13044377023.html",
+      "destination": "/public/google343ed13044377023.html"
+    }
+  ]
+}
